@@ -15,29 +15,57 @@ public class Proje5Elements
     @FindBy(xpath = "//i[@class='nav-icon fas fa-book']")
     public WebElement catalog;
 
+    @FindBy(xpath = "//*[text()=' Products']")
+    public WebElement dogrulama1;
+
     @FindBy(xpath = "//i[@class='nav-icon fas fa-shopping-cart']")
     public WebElement sales;
+
+    @FindBy(xpath = "//*[text()=' Orders']")
+    public WebElement dogrulama2;
 
     @FindBy(xpath = "//i[@class='nav-icon far fa-user']")
     public WebElement customers;
 
+    @FindBy(xpath = "//*[text()=' Customer roles']")
+    public WebElement dogrulama3;
+
     @FindBy(xpath = "//i[@class='nav-icon fas fa-tags']")
     public WebElement promotions;
+
+    @FindBy(xpath = "//*[text()=' Discounts']")
+    public WebElement dogrulama4;
 
     @FindBy(xpath = "//i[@class='nav-icon fas fa-cubes']")
     public WebElement contentManagement;
 
+    @FindBy(xpath = "//*[text()=' News items']")
+    public WebElement dogrulama5;
+
     @FindBy(xpath = "//i[@class='nav-icon fas fa-cogs']")
     public WebElement configuration;
+
+    @FindBy(xpath = "//*[text()=' Stores']")
+    public WebElement dogrulama6;
 
     @FindBy(xpath = "//i[@class='nav-icon fas fa-cube']")
     public WebElement system;
 
+    @FindBy(xpath = "//*[text()=' Log']")
+    public WebElement dogrulama7;
+
     @FindBy(xpath = "//i[@class='nav-icon fas fa-chart-line']")
     public WebElement reports;
 
+    @FindBy(xpath = "//*[text()=' Sales summary']")
+    public WebElement dogrulama8;
+
     @FindBy(xpath = "//i[@class='nav-icon fas fa-question-circle']")
     public WebElement help;
+
+    @FindBy(xpath = "//*[text()=' Training']")
+    public WebElement dogrulama9;
+
 
     @FindBy(xpath = "//*[text()=' Customers']")
     public WebElement customers2;

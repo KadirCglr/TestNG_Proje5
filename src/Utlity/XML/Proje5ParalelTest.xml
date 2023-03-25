@@ -8,16 +8,18 @@
 
         <classes>
             <class name="TestNGProje5.Proje5Case"> </class>
+            <class name="TestNGProje5.Proje5Elements"> </class>
         </classes>
     </test>
 
     <test name="test2">
-        <parameter name="browserTipi" value="edge"> </parameter>
+        <parameter name="browserTipi" value="firefox"> </parameter>
 
 
         <classes>
 
             <class name="TestNGProje5.Proje5Case"> </class>
+            <class name="TestNGProje5.Proje5Elements"> </class>
         </classes>
     </test>
 </suite>
